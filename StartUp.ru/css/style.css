@@ -1,0 +1,282 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+/* HOME */
+.header {
+	background: url("../imgs/bg.jpg") no-repeat center/cover;
+	font-family: 'Montserrat', sans-serif;
+
+}
+.header-inner {
+	width: 1140px;
+	padding-top: 40px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo a{
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
+}
+.nav {
+	display: flex;
+}
+.nav li {
+	margin-right: 30px;
+}
+.nav li a {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	opacity: .8;
+}
+.nav li a:hover {
+	opacity: 1;
+	transition: .3s ease;
+}
+.content-home {
+	padding-top: 260px;
+	width: 1140px;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 260px;
+}
+.content-home h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 48px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.content-home h3 {
+	padding-top: 20px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #fff;
+	padding-bottom: 50px;
+}
+.content-home a {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+	border: 2px solid #fff;
+	padding: 20px 30px;
+	text-transform: uppercase;
+}
+.content-home a:hover {
+	transition: .2s ease;
+	background: #fff;
+	color: #c0301c;
+}
+/* SERVICES */
+.services{
+	background-color: #fff;
+}
+.content-services{
+	width: 1140px;
+	margin: auto;
+	padding-top: 100px;
+	text-align: center;
+}
+.title h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #555;
+	text-transform: uppercase;
+}
+.title::after{
+	content: "";
+	display: block;
+	width: 50px;
+	height: 2px;
+	background-color: #555;
+	margin: 30px auto;
+}
+.subtitle h4 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #555;
+}
+.card-services {
+	padding-top: 70px;
+	display: flex;
+	padding-bottom: 100px; 
+	align-items: center;
+}
+.fa-font{
+	padding: 20px;
+	color: #c0301c;
+	font-size: 30px;
+	border: 2px solid #dedede;
+	border-radius: 100%;
+}
+.fa-font:hover {
+	background-color: #c0301c;
+	color: #fff;
+	transition: .2s ease;
+}
+.fa-code{
+	padding: 20px;
+	color: #c0301c;
+	font-size: 30px;
+	border: 2px solid #dedede;
+	border-radius: 100%;
+}
+.fa-code:hover{
+	background-color: #c0301c;
+	color: #fff;
+	transition: .2s ease;
+}
+.fa-life-ring{
+	padding: 20px;
+	color: #c0301c;
+	font-size: 30px;
+	border: 2px solid #dedede;
+	border-radius: 100%;
+}
+.fa-life-ring:hover {
+	background-color: #c0301c;
+	color: #fff;
+	transition: .2s ease;
+}
+.card-title-serv h3{
+	padding-top: 25px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #555;
+	text-transform: uppercase;
+}
+.card-text-serv p{
+	padding-top: 25px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #555;
+}
+.card-tt{
+	margin-right: 40px;
+}
+.card-tt:last-child{
+	margin-right: 0;
+}
+/* ABOUT */
+.about{
+	background-color: #f8f8f8;
+}
+.content-about{
+	margin: auto;
+	width: 1140px;
+	padding-top: 100px;
+	text-align: center;
+}
+.about-div-text{
+	padding-top: 70px;
+	display: flex;
+	justify-content: space-between;
+}
+.about-text{
+	text-align: left;
+	margin-right: 35px;
+}
+.about-text:last-child{
+	margin-right: 0;
+}
+.about-text p{
+	line-height: 1.6;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #555;
+}
+.about-team-card{
+	margin-right: 20px;
+	position: relative;
+}
+.about-img-container:hover .about-card-img img{
+	transition: .4s ease;
+	opacity: 0.6;
+}
+.about-img-container:hover .social i{
+	transition: .3s ease;
+	opacity: 1;
+}
+.about-team{
+	padding-top: 70px;
+	display: inline-flex;
+	height: 418px;
+}
+.about-card-info{
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+.about-card-info h1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+.about-card-info h4{
+	padding-top: 12px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-size: 13px;	
+}
+.about-card-img{
+	height: 250px;
+	width: 263px;
+	background: #000;	
+}
+.fa-facebook-f, .fa-twitter, .fa-google-plus-g, .fa-linkedin-in{
+	cursor: pointer;
+	padding: 13px;
+	color: #fff;
+	font-size: 18px;
+	opacity: 0;
+}
+.fa-facebook-f:hover{
+	cursor: pointer;
+	display: block;
+	background-color: #c0301c;
+}
+.fa-twitter:hover{
+	cursor: pointer;
+	display: block;
+	background-color: #c0301c;
+}
+.fa-google-plus-g:hover{
+	cursor: pointer;
+	display: block;
+	background-color: #c0301c;
+}
+.fa-linkedin-in:hover{
+	cursor: pointer;
+	display: block;
+	background-color: #c0301c;
+}
+.social{
+	width: 0px;
+	height: 30px;
+	display: inline-flex;
+	align-items: center;
+	position: absolute;
+	top: 200px;
+	left: 45px;
+}
+.sworks{
+	display: inline-flex;
+
+}
+.sworks h4{
+	margin-right: 25px;
+}
